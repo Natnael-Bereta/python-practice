@@ -7,4 +7,4 @@ try:
         total += i
     print(f'The sum is = {total}')
 except:
-    print("You can only insert positive integers! yay!")
+    print("You can only insert positive integers!")
