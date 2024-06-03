@@ -15,8 +15,7 @@ cse = { 'Seid': [1000, 0.05, 5000],
        'Kebede': [8000, 0.05, 5000],
        'Mohammed': [5000, 0.05, 5000]
        }
-#for name, values in cse.items():
- #   print(name, values)
-
-for i in cse.get("Seid"):
-    print(i)
+fixed_salary = cse.items()
+sell = cse.items()
+percent = cse.items()
+salary = fixed_salary + (sell * percent)
