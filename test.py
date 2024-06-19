@@ -1,5 +1,3 @@
-def greet_user(user_name):
-    """Display a simple greeting."""
-    print("Hello " + user_name)
-greet_user("Natty")
-    
+for i in range(3):
+    for j in range(2):
+        print(i,j)
