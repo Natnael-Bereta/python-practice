@@ -1,13 +1,7 @@
-a = int(input("Insert a number: "))
-
-b = m = 0 
-c = a
-res = ""
-while a > 0:
-    temp = a % 10
-    b = (b*10) + temp
-    a = a // 10
-    m += 1
-if len(str(b)) < m:
-    res += "0"*(m-len(str(b))) + str(b)
-print(res)
+lst = [1, 3, 4, 5]
+i = 0
+sum_ = 0
+while i < len(lst):
+    sum_ = sum_ + (lst[i] ** 2)
+    i += 1
+print(sum_)
