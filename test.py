@@ -23,3 +23,4 @@ def fibonacci(n):
 number = 10
 for num in fibonacci(number):
   print(num)
+

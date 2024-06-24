@@ -7,13 +7,3 @@ def remove_duplicate(input_list):
 
 
 
-def remove_duplicate(input_list):
-    no_duplicate = []
-    seen = set()
-    for l in input_list:
-        if l not in seen:
-            no_duplicate.append(l)
-            seen.add(l)
-    return no_duplicate
-
-
