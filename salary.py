@@ -1,4 +1,4 @@
-s = float(input('asgebaw '))
+"""s = float(input('asgebaw '))
 if (s == 5000 or s <= 4999):
     if (s < 2000):
         print("lowest")
@@ -13,3 +13,5 @@ elif(s > 20000):
         print("Higher")
 else:
     print("Highest")
+"""
+
