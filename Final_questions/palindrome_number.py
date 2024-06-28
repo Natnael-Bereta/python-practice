@@ -8,11 +8,11 @@ while a > 0:
 if c == b:
     print("It is palindrome!")
 else:
-    print("It is not!")
+    print("It is not!")"""
 
 #or
 
-n=input ("Enter a number: ")
+"""n=input ("Enter a number: ")
 u= n[::-1]
 if n == u:
     print( "Is a palindrome number ")

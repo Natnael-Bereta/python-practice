@@ -6,7 +6,7 @@ def average_number(*numbers):
 flag = True
 
 while flag:
-    a = int(input('Insert to calculate the average: '))
+    a = eval(input('Insert to calculate the average: '))
     if a == 'break':
         flag = False
     else:
