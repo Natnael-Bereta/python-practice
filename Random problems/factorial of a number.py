@@ -1,8 +1,8 @@
 n = int(input("Insert any  number: "))
-total = 1
+factorial = 1
 for i in range(2, n + 1):
-    total *= i
-print(f'The factorial is: {total}')
+    factorial *= i
+print(f'The factorial is: {factorial}')
 
 #To print the above in the form of a string (Do this)
 res = ''
