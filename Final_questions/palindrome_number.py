@@ -1,4 +1,4 @@
-"""a = int(input("Insert a number to check if it is a palindrome \n >>> "))
+a = int(input("Insert a number to check if it is a palindrome \n >>> "))
 b = 0
 c = a
 while a > 0:
@@ -8,7 +8,7 @@ while a > 0:
 if c == b:
     print("It is palindrome!")
 else:
-    print("It is not!")"""
+    print("It is not!")
 
 #or
 
